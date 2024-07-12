@@ -12,7 +12,7 @@ class Config(object):
     # digital_botz client config
     API_ID = os.environ.get("API_ID", "3335796")
     API_HASH = os.environ.get("API_HASH", "138b992a0e672e8346d8439c3f42ea78")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7136875110:AAF3hNDcTC4X2e9GQ7EePvOST7aTCPh1pGg") 
 
     # premium account string session required 😢 
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
@@ -24,7 +24,7 @@ class Config(object):
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '763990585').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001792962793"))
 
     #force subs
     try:
